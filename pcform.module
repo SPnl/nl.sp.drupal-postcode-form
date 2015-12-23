@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * pcform_menu
+ */
+
+function pcform_menu() {
+  $items = array();
+
+  $items['admin/config/sp/pcform'] = array(
+    'title' => 'Postcode afdelingsinformatie',
+    'type' => MENU_NORMAL_ITEM,
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('pcform_admin_form'),
+    'access arguments' => array('access administration pages'),
+    'file' => 'pcform.admin.inc',
+  );
+
+  return $items;
+}
