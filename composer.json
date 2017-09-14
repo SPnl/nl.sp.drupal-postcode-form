@@ -1,7 +1,7 @@
 {
-  "name": "SPnl/nl.sp.drupal-postcode-form",
+  "name": "spnl/nl.sp.drupal-postcode-form",
   "description": "Form to find afdeling information based on postal codes.",
-  "type": "drupal-module",
+  "type": "drupal-custom-module",
   "authors": [
     {
       "name": "Thomas de Graaff",

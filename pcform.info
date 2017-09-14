@@ -1,4 +1,5 @@
 name = Postcode afdelingsinformation form
 description = Form to find afdeling information based on postal codes.
+version = 1.0.1
 core = 7.x
 package = sprbs
